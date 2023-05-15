@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Contacts } from '@/data/Contacts';
 import { useEffect, useState } from 'react';
 import { ContentAnimation, FadeAnimation } from '@/components/Animations';
+import {BsTwitter} from "react-icons/Bs";
 
 const Contact = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -38,7 +39,7 @@ const Contact = () => {
         </motion.span>
 
         <motion.div {...ContentAnimation} className="relative my-10 w-9/12 text-right md:my-0 md:w-2/5">
-          {Contacts.map((contact) => (
+          {/* {Contacts.map((contact) => (
             <a href={contact.href} target="_blank" rel="noreferrer" key={contact.id} className="my-4 flex justify-end fill-secondary-light transition-all duration-500 hover:fill-primary-light hover:text-primary-light">
               <div className="mr-8">
                 <h4 className="text-base">{contact.name}</h4>
@@ -50,7 +51,7 @@ const Contact = () => {
                 </svg>
               </div>
             </a>
-          ))}
+          ))} */}
         </motion.div>
 
         <motion.div {...ContentAnimation} className="relative my-10 w-9/12 md:my-0 md:w-1/3">
