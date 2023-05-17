@@ -31,7 +31,7 @@ const Works = () => {
                 <Link href={`/works/${project.slug}`}>
                   <motion.a {...FadeAnimation} className="relative h-44 w-full overflow-hidden rounded-md bg-primary-dark">
                     <Image src={`/images/projects/${project.img}.png`} layout="fill" alt={project.name} className="relative transition-all duration-500 hover:scale-125" />
-                  </motion.a>
+                  </motion.a> 
                 </Link>
                 <div className="py-2 text-xl font-medium text-primary-dark">{project.name}</div>
                 <div className="flex w-full justify-between px-3 pt-1 pb-4">
@@ -55,6 +55,9 @@ const Works = () => {
           <div className="absolute top-6 h-4 w-4 rotate-45 rounded border-b-4 border-r-4 border-secondary-light" />
           <div className="absolute top-6 h-7 w-7 rotate-45 rounded border-b-4 border-r-4 border-primary-light" />
         </div>
+      </section>
+      <section className='h-screen'>
+
       </section>
     </Layouts>
   );
