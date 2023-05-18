@@ -1,12 +1,7 @@
 import Layouts from "@/components/Layouts";
 import { motion } from "framer-motion";
 import { ContentAnimation, FadeAnimation } from "@/components/Animations";
-import {
-  BsGithub,
-  BsInstagram,
-  BsLinkedin,
-  BsTwitter,
-} from "react-icons/Bs";
+import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/Bs";
 import { SiHashnode, SiPolywork } from "react-icons/Si";
 import { AiOutlineMail } from "react-icons/Ai";
 import Link from "next/link";
@@ -25,43 +20,43 @@ const Contact = () => {
           </div>
           <div className="grid grid-cols-4">
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://twitter.com/agrim_sharma174" target="_blank">
+              <a href="https://twitter.com/agrim_sharma174" target="_blank" rel="noreferrer">
                 <BsTwitter />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
               <a
                 href="https://www.linkedin.com/in/agrim-sharma174/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <BsLinkedin />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://github.com/Agrim-Sharma174" target="_blank">
+              <a href="https://github.com/Agrim-Sharma174" target="_blank" rel="noreferrer">
                 <BsGithub />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://agrimsharma.hashnode.dev/" target="_blank">
+              <a href="https://agrimsharma.hashnode.dev/" target="_blank" rel="noreferrer">
                 <SiHashnode />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="mailto:agrimsharma1714@gmail.com" target="_blank">
+              <a href="mailto:agrimsharma1714@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
               <a
                 href="https://www.polywork.com/agrim_sharma174"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <SiPolywork />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://instagram.com/agrim_sharma174" target="_blank">
+              <a href="https://instagram.com/agrim_sharma174" target="_blank" rel="noreferrer">
                 <BsInstagram />
               </a>
             </div>
