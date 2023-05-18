@@ -20,43 +20,65 @@ const Contact = () => {
           </div>
           <div className="grid grid-cols-4">
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://twitter.com/agrim_sharma174" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/agrim_sharma174"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsTwitter />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
               <a
                 href="https://www.linkedin.com/in/agrim-sharma174/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <BsLinkedin />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://github.com/Agrim-Sharma174" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/Agrim-Sharma174"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsGithub />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://agrimsharma.hashnode.dev/" target="_blank" rel="noreferrer">
+              <a
+                href="https://agrimsharma.hashnode.dev/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <SiHashnode />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="mailto:agrimsharma1714@gmail.com" target="_blank" rel="noreferrer">
+              <a
+                href="mailto:agrimsharma1714@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiOutlineMail />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
               <a
                 href="https://www.polywork.com/agrim_sharma174"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <SiPolywork />
               </a>
             </div>
             <div className="mx-4 my-4 text-4xl hover:text-black">
-              <a href="https://instagram.com/agrim_sharma174" target="_blank" rel="noreferrer">
+              <a
+                href="https://instagram.com/agrim_sharma174"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsInstagram />
               </a>
             </div>

@@ -30,7 +30,7 @@ const About = () => {
           <div className="my-5 mr-2 text-left text-2xl font-bold text-primary-light">
             My Skills
           </div>
-          <div className="flex h-auto w-[100%] flex-wrap justify-evenly hover:scale-105 md:-mr-7">
+          <div className="flex h-auto mb-10 flex-wrap justify-evenly md:w-[370px] md:-mr-24">
             <div className="mx-4 my-2 text-4xl hover:text-black">
               {" "}
               <AiFillHtml5 className="text-6xl " />{" "}
@@ -114,7 +114,7 @@ const About = () => {
           {...ContentAnimation}
           className="relative order-1 my-10 w-3/4 text-justify md:order-2 md:my-0 md:w-1/4"
         >
-          <p className="w-96 text-lg font-light text-primary-light">
+          <p className="md:w-96 text-lg font-light text-primary-light">
             {`I'm AGRIM SHARMA, a computer science undergraduate student, who is dedicated to honing my skills in various areas such as blockchain development, front-end development, design, and programming. My strength lies in my ability to work well with others and find solutions to difficult problems. I enjoy staying current with the latest technology advancements and am always seeking new knowledge to further my development. I spend my free time writing and reading tech blogs, debugging my code, and tackling programming challenges.`}
           </p>
         </motion.div>
