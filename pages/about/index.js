@@ -2,18 +2,18 @@ import Layouts from "@/components/Layouts";
 import { Skills } from "@/data/Skills";
 import { motion } from "framer-motion";
 import { ContentAnimation, FadeAnimation } from "@/components/Animations";
-import { AiFillHtml5, AiFillGithub } from "react-icons/Ai";
-import { DiCss3, DiReact, DiMongodb } from "react-icons/Di";
+import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
+import { DiCss3, DiReact, DiMongodb } from "react-icons/di";
 import {
   SiJavascript,
   SiSolidity,
   SiTailwindcss,
   SiWeb3Dotjs,
-} from "react-icons/Si";
-import { TbBrandNextjs, TbBrandCpp } from "react-icons/Tb";
-import { FaNodeJs, FaHardHat, FaEthereum, FaPython } from "react-icons/Fa";
-import { FiFigma, FiFramer } from "react-icons/Fi";
-import { BsGit, BsFillBootstrapFill } from "react-icons/Bs";
+} from "react-icons/si";
+import { TbBrandNextjs, TbBrandCpp } from "react-icons/tb";
+import { FaNodeJs, FaHardHat, FaEthereum, FaPython } from "react-icons/fa";
+import { FiFigma, FiFramer } from "react-icons/fi";
+import { BsGit, BsFillBootstrapFill } from "react-icons/bs";
 
 const About = () => {
   return (
