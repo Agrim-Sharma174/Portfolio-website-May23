@@ -1,9 +1,9 @@
 import Layouts from "@/components/Layouts";
 import { motion } from "framer-motion";
 import { ContentAnimation, FadeAnimation } from "@/components/Animations";
-import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/Bs";
-import { SiHashnode, SiPolywork } from "react-icons/Si";
-import { AiOutlineMail } from "react-icons/Ai";
+import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { SiHashnode, SiPolywork } from "react-icons/si";
+import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
 
 const Contact = () => {
