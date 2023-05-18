@@ -12,7 +12,7 @@ import {
 } from "react-icons/Si";
 import { TbBrandNextjs, TbBrandCpp } from "react-icons/Tb";
 import { FaNodeJs, FaHardHat, FaEthereum, FaPython } from "react-icons/Fa";
-import { FiFigma } from "react-icons/Fi";
+import { FiFigma, FiFramer } from "react-icons/Fi";
 import { BsGit, BsFillBootstrapFill } from "react-icons/Bs";
 
 const About = () => {
@@ -30,25 +30,83 @@ const About = () => {
           <div className="my-5 mr-2 text-left text-2xl font-bold text-primary-light">
             My Skills
           </div>
-          <div className="flex h-auto w-[100%] flex-wrap justify-evenly space-x-3 space-y-3 hover:scale-105 md:-mr-7">
-            <AiFillHtml5 className="text-6xl " />
-            <DiCss3 className="text-6xl  " />
-            <SiJavascript className="text-6xl  " />
-            <DiReact className="text-6xl  " />
-            <TbBrandNextjs className="text-6xl  " />
-            <FaNodeJs className="text-6xl  " />
-            <DiMongodb className="text-6xl  " />
-            <SiSolidity className="text-6xl  " />
-            <TbBrandCpp className="text-6xl  " />
-            <FaPython className="text-6xl  " />
-            <SiTailwindcss className="text-6xl  " />
-            <BsFillBootstrapFill className="text-6xl  " />
-            <FiFigma className="text-6xl  " />
-            <FaHardHat className="text-6xl  " />
-            <SiWeb3Dotjs className="text-6xl  " />
-            <FaEthereum className="text-6xl  " />
-            <BsGit className="text-6xl  " />
-            <AiFillGithub className="text-6xl  " />
+          <div className="flex h-auto w-[100%] flex-wrap justify-evenly hover:scale-105 md:-mr-7">
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <AiFillHtml5 className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <DiCss3 className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <SiJavascript className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <DiReact className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <TbBrandNextjs className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <FaNodeJs className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <DiMongodb className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <SiSolidity className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <TbBrandCpp className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <FaPython className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <SiTailwindcss className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <BsFillBootstrapFill className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <FiFigma className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <FiFramer className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <FaHardHat className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <SiWeb3Dotjs className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <FaEthereum className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <BsGit className="text-6xl " />{" "}
+            </div>
+            <div className="mx-4 my-2 text-4xl hover:text-black">
+              {" "}
+              <AiFillGithub className="text-6xl " />{" "}
+            </div>
           </div>
         </motion.div>
 

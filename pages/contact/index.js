@@ -1,10 +1,7 @@
 import Layouts from "@/components/Layouts";
 import { motion } from "framer-motion";
-import { Contacts } from "@/data/Contacts";
-import { useEffect, useState } from "react";
 import { ContentAnimation, FadeAnimation } from "@/components/Animations";
 import {
-  BsDiscord,
   BsGithub,
   BsInstagram,
   BsLinkedin,
@@ -15,7 +12,6 @@ import { AiOutlineMail } from "react-icons/Ai";
 import Link from "next/link";
 
 const Contact = () => {
-
   return (
     <Layouts pageTitle=" | Contact">
       <section className="relative flex w-full flex-col items-center justify-evenly py-40 md:h-screen md:flex-row md:overflow-hidden">
@@ -28,32 +24,51 @@ const Contact = () => {
             My socials
           </div>
           <div className="grid grid-cols-4">
-            <div className="mx-4 my-4 text-4xl">
-              <a href="https://twitter.com/agrim_sharma174" target="_blank"><BsTwitter /></a> 
+            <div className="mx-4 my-4 text-4xl hover:text-black">
+              <a href="https://twitter.com/agrim_sharma174" target="_blank">
+                <BsTwitter />
+              </a>
             </div>
-            <div className="mx-4 my-4 text-4xl">
-            <a href="https://www.linkedin.com/in/agrim-sharma174/" target="_blank"><BsLinkedin /></a> 
+            <div className="mx-4 my-4 text-4xl hover:text-black">
+              <a
+                href="https://www.linkedin.com/in/agrim-sharma174/"
+                target="_blank"
+              >
+                <BsLinkedin />
+              </a>
             </div>
-            <div className="mx-4 my-4 text-4xl">
-            <a href="https://instagram.com/agrim_sharma174" target="_blank"><BsInstagram /></a> 
+            <div className="mx-4 my-4 text-4xl hover:text-black">
+              <a href="https://github.com/Agrim-Sharma174" target="_blank">
+                <BsGithub />
+              </a>
             </div>
-            <div className="mx-4 my-4 text-4xl">
-            <a href="https://github.com/Agrim-Sharma174" target="_blank"><BsGithub /></a> 
+            <div className="mx-4 my-4 text-4xl hover:text-black">
+              <a href="https://agrimsharma.hashnode.dev/" target="_blank">
+                <SiHashnode />
+              </a>
             </div>
-            <div className="mx-4 my-4 text-4xl">
-            <a href="https://agrimsharma.hashnode.dev/" target="_blank"><SiHashnode /></a> 
+            <div className="mx-4 my-4 text-4xl hover:text-black">
+              <a href="mailto:agrimsharma1714@gmail.com" target="_blank">
+                <AiOutlineMail />
+              </a>
             </div>
-            <div className="mx-4 my-4 text-4xl">
-            <a href="mailto:agrimsharma1714@gmail.com" target="_blank"><AiOutlineMail /></a> 
+            <div className="mx-4 my-4 text-4xl hover:text-black">
+              <a
+                href="https://www.polywork.com/agrim_sharma174"
+                target="_blank"
+              >
+                <SiPolywork />
+              </a>
             </div>
-            <div className="mx-4 my-4 text-4xl">
-            <a href="https://www.polywork.com/agrim_sharma174" target="_blank"><SiPolywork /></a> 
+            <div className="mx-4 my-4 text-4xl hover:text-black">
+              <a href="https://instagram.com/agrim_sharma174" target="_blank">
+                <BsInstagram />
+              </a>
             </div>
           </div>
 
           <div>DM me and I would love to intract with you.</div>
         </motion.div>
-
       </section>
     </Layouts>
   );
