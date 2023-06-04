@@ -11,6 +11,16 @@ export const Projects = [
   },
   {
     id: 2,
+    name: "GrimChat",
+    slug: "grimchat",
+    img: "grim-chat",
+    demo: "https://grim-chat.vercel.app/",
+    sourceCode: "https://github.com/Agrim-Sharma174/GrimChat",
+    description:
+      "The project is a real-time chat website built with Next.js, Tailwind CSS, and Firebase as the backend, providing users with the ability to chat with each other. It incorporates features such as displaying real-time online status, last seen information, and a visually appealing user interface.",
+  },
+  {
+    id: 2,
     name: "Agrim-Travel",
     slug: "agrim-travel",
     img: "agrimtravel",
@@ -71,7 +81,7 @@ export const Projects = [
   },
   {
     id: 7,
-    name: "Coming Soon: Decentralized Exchange",
+    name: "Decentralized Exchange",
     slug: "coming-soon-project",
     img: "coming-soon",
     demo: "https://",
