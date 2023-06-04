@@ -70,24 +70,24 @@ export const Projects = [
       "A full-stack dApp, with NextJs, solidity, harhat. This project focuses on providing early supporters with exclusive access to a whitelist for the Agrim Crypto Devs collection.",
   },
   {
+    id: 7,
+    name: "Decentralized Exchange",
+    slug: "agrim-decentralized-exchange",
+    img: "agrim-dex",
+    demo: "https://agrim-dex.vercel.app/",
+    sourceCode: "https://github.com/Agrim-Sharma174/Agrim-DEX",
+    description:
+      "The objective is to construct a decentralized exchange featuring a single asset pair (ETH/Crypto Dev). The exchange will charge a 1% fee on swaps. When users contribute liquidity, they will receive Crypto Dev LP tokens in return, proportionate to the amount of Ether they provide for liquidity.",
+  },
+  {
     id: 6,
-    name: "Some dApps",
+    name: "Full-stack dApps",
     slug: "dApp-projects",
     img: "smartcontracts",
-    demo: "https://",
+    demo: "https://github.com/Agrim-Sharma174/Basic-Dapps",
     sourceCode: "https://github.com/Agrim-Sharma174/Basic-Dapps",
     description:
       "A collection of some dApps made using solidity, hardhat, NextJs, TailwindCSS. These dApps are made for learning purpose. Some of them are- FIR complaint dApp, vending machine dApp, voting dApp, blog dApp, to-do dApp, etc.",
-  },
-  {
-    id: 7,
-    name: "Decentralized Exchange",
-    slug: "coming-soon-project",
-    img: "coming-soon",
-    demo: "https://",
-    sourceCode: "https://",
-    description:
-      "The objective is to construct a decentralized exchange featuring a single asset pair (ETH/Crypto Dev). The exchange will charge a 1% fee on swaps. When users contribute liquidity, they will receive Crypto Dev LP tokens in return, proportionate to the amount of Ether they provide for liquidity.",
   },
   {
     id: 8,
