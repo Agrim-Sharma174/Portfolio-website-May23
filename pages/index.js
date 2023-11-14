@@ -24,7 +24,7 @@ const Home = () => {
         <motion.div {...ContentAnimation} className="relative order-1 w-1/3 md:order-2">
           <h3 className=" text-lg font-normal">Hi! I am</h3>
           <h1 className="-ml-1 mb-1 mt-2 text-7xl font-bold text-primary-light">Agrim Sharma</h1>
-          <h4 className=" w-14 mt-5 text-sm font-light transition-all duration-500 hover:text-primary-light">Front-end Dev | Blockchain Developer | Technical Writer</h4>
+          <h4 className=" w-44 mt-5 text-sm font-light transition-all duration-500 hover:text-primary-light">Front-end Dev | Blockchain Developer | Technical Writer</h4>
         </motion.div>
         {/* <p>This project is originally from https://github.com/euxzy/portfolio</p> */}
       </section>
