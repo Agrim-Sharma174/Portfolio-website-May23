@@ -6,12 +6,12 @@ import { ContentAnimation, FadeAnimation, CardHomeAnimation } from '@/components
 const Home = () => {
   return (
     <Layouts>
-      <section className="relative flex w-full flex-col items-center justify-evenly py-40 md:h-screen md:flex-row md:overflow-hidden">
+      <section className="relative flex w-full  flex-col items-center md:justify-evenly justify-center h-screen md:h-screen md:flex-row md:overflow-hidden p-0 md:pl-40">
         <motion.span {...FadeAnimation} className="title-page">
           Agrim
         </motion.span>
 
-        <motion.div {...ContentAnimation} className="relative order-2 flex w-1/2 justify-end md:order-1 md:w-1/3">
+        <motion.div {...ContentAnimation} className="relative order-2 md:-mt-20  flex w-1/2 justify-center md:order-2 md:w-1/3">
           <motion.div {...CardHomeAnimation} animate={{ rotate: -12 }} className="card-home absolute bg-[#464646]" />
           <motion.div {...CardHomeAnimation} animate={{ rotate: -3 }} className="card-home absolute bg-secondary-light" />
           <motion.div {...CardHomeAnimation} animate={{ rotate: 2 }} className="card-home relative bg-primary-light">
@@ -21,10 +21,10 @@ const Home = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div {...ContentAnimation} className="relative order-1 w-1/3 md:order-2">
+        <motion.div {...ContentAnimation} className="  order-1 w-1/3 md:ml-0 -ml-10 md:mt-0 mt-20 md:w-1/5 md:order-1">
           <h3 className=" text-lg font-normal">Hi! I am</h3>
-          <h1 className="-ml-1 mb-1 mt-2 text-7xl font-bold text-primary-light">Agrim Sharma</h1>
-          <h4 className=" w-44 mt-5 text-sm font-light transition-all duration-500 hover:text-primary-light">Front-end Dev | Blockchain Developer | Technical Writer</h4>
+          <h1 className="-ml-1 mb-1 mt-2 text-6xl md:text-7xl font-bold text-primary-light">Agrim Sharma</h1>
+          <h4 className=" w-44 mt-5 pt-3 pr-3 pb-3 text-sm font-light transition-all duration-500 hover:text-primary-light">Front-end Dev | Blockchain Developer | Technical Writer</h4>
         </motion.div>
         {/* <p>This project is originally from https://github.com/euxzy/portfolio</p> */}
       </section>

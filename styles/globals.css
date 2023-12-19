@@ -13,7 +13,7 @@
     @apply cursor-none font-lexend;
   }
   body {
-    @apply bg-primary-dark text-secondary-light;
+    @apply bg-[#0B1120] text-secondary-light;
   }
 }
 
