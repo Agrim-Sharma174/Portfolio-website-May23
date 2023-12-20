@@ -31,7 +31,7 @@ const Works = () => {
                 <Link href={`/works/${project.slug}`}>
                   <motion.a {...FadeAnimation} className="relative h-44 w-full overflow-hidden rounded-md bg-primary-dark">
                     <Image src={`/images/projects/${project.img}.png`} layout="fill" alt={project.name} className="relative transition-all duration-500 hover:scale-125" />
-                  </motion.a> 
+                  </motion.a>
                 </Link>
                 <div className="py-2 text-xl font-medium text-primary-dark">{project.name}</div>
                 <div className="flex w-full justify-between px-3 pt-1 pb-4">
@@ -47,8 +47,8 @@ const Works = () => {
           ))}
         </div>
 
-        <div className="fixed top-0 -right-1 h-screen w-1/12 bg-primary-dark" />
-        <div className="fixed top-0 -left-1 hidden h-3/4 w-1/12 bg-primary-dark md:block" />
+        {/* <div className="fixed top-0 -right-1 h-screen w-1/12 bg-primary-dark" /> */}
+        {/* <div className="fixed top-0 -left-1 hidden h-3/4 w-1/12 bg-primary-dark md:block" /> */}
 
         <div className="fixed bottom-40 flex flex-col items-center">
           <span className="text-primary-light">Scroll</span>
