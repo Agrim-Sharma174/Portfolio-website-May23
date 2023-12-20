@@ -19,7 +19,7 @@ const About = () => {
   return (
     <Layouts pageTitle=" | About">
       <section className="relative flex w-full flex-col items-center justify-evenly py-40 md:h-screen md:flex-row md:overflow-hidden">
-        <motion.span {...FadeAnimation} className="title-page">
+        <motion.span {...FadeAnimation} className="title-page text-slate-900">
           ABOUT ME
         </motion.span>
 
@@ -110,14 +110,14 @@ const About = () => {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           {...ContentAnimation}
-          className="relative order-1 my-10 w-3/4 text-justify md:order-2 md:my-0 md:w-1/4"
+          className="relative order-1 my-10 w-3/4 text-center md:order-2 md:my-0 md:w-1/4"
         >
           <p className="md:w-96 text-lg font-light text-primary-light">
             {`I'm AGRIM SHARMA, a computer science undergraduate student, who is dedicated to honing my skills in various areas such as blockchain development, front-end development, design, and programming. My strength lies in my ability to work well with others and find solutions to difficult problems. I enjoy staying current with the latest technology advancements and am always seeking new knowledge to further my development. I spend my free time writing and reading tech blogs, debugging my code, and tackling programming challenges.`}
           </p>
-        </motion.div>
+        </motion.div> */}
       </section>
     </Layouts>
   );
