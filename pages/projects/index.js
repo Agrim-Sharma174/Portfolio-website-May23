@@ -18,7 +18,7 @@ const Works = () => {
   }, []);
 
   return (
-    <Layouts pageTitle=" | Works">
+    <Layouts pageTitle=" | PROJECTS">
       <section className="relative flex h-[450vh] items-center justify-center">
         <motion.span {...FadeAnimation} className="title-page text-slate-900">
           PROJECTS
@@ -28,7 +28,7 @@ const Works = () => {
           {Projects.map((project) => (
             <div key={project.id}>
               <motion.div {...ProjectCardAnimation} className="mx-12 flex w-72 flex-col items-center justify-center rounded-md border-4 border-primary-light bg-primary-light p-[2px]">
-                <Link href={`/works/${project.slug}`}>
+                <Link href={`/projects/${project.slug}`}>
                   <motion.a {...FadeAnimation} className="relative h-44 w-full overflow-hidden rounded-md bg-primary-dark">
                     <Image src={`/images/projects/${project.img}.png`} layout="fill" alt={project.name} className="relative transition-all duration-500 hover:scale-125" />
                   </motion.a>

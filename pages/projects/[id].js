@@ -14,9 +14,9 @@ const ProjectDetail = withRouter(
     const getProject = Projects.find((project) => project.slug === id);
 
     return (
-      <Layouts pageTitle=" | Works">
+      <Layouts pageTitle=" | Projects">
         <section className="relative flex w-full items-center justify-center py-40 md:h-screen">
-          <span className="title-page">WORKS</span>
+          <span className="title-page">PROJECTS</span>
 
           <motion.div
             {...ContentAnimation}
