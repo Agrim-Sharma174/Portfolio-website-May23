@@ -34,10 +34,10 @@ const Header = () => {
         </div>
 
         <div className={`absolute top-12 right-0 md:relative md:top-0 md:mr-10 md:w-11/12 lg:mr-40 lg:w-1/2 ${!open ? 'hide' : 'show'}`}>
-          <nav className="navbar md:w-20 md:flex md:flex-col md:fixed md:left-4 md:mt-1 md:my-auto md:space-y-5">
+          <nav className="navbar md:w-24 rounded-md md:flex md:flex-col md:fixed md:left-4 md:mt-1 md:my-auto md:space-y-5 backdrop-blur-sm p-3">
             {navLinks.map((link) => (
               <Link key={link.title} href={link.path}>
-                <a className={`nav-items md:backdrop-blur-xl md:hover:backdrop-blur-sm md:hover:bg-white md:hover:bg-opacity-5 md:w-[74px] md:h-[74px] md:rounded-full md:flex justify-center md:items-center md:transition md:duration-100 md:shadow-gray-50 md:hover:shadow-gray-50 md:shadow-sm md:hover:shadow-lg  ${router.pathname === link.path ? 'text-primary-light' : ''}`}>{link.title}</a>
+                <a className={`nav-items hover:scale-110 md:backdrop-blur-xl md:hover:backdrop-blur-sm md:hover:bg-white md:hover:bg-opacity-5 md:w-[74px] md:h-[74px] md:rounded-full md:flex justify-center md:items-center md:transition md:duration-100 md:shadow-gray-50 md:hover:shadow-gray-50 md:shadow-inner md:hover:shadow-inner  ${router.pathname === link.path ? 'text-primary-light' : ''}`}>{link.title}</a>
               </Link>
             ))}
           </nav>

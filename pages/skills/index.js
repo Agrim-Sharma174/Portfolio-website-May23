@@ -29,109 +29,109 @@ const About = () => {
           {...ContentAnimation}
           className="relative  flex flex-col items-center md:h-[70vh] "
         >
-          <div className="sticky md:top-auto px-1 top-10 my-5 mx-auto text-left text-2xl font-bold text-primary-light  backdrop-blur-sm">
+          <div className="sticky md:top-auto px-1 top-10 my-5 mx-auto text-left text-2xl font-bold text-primary-light backdrop-blur-sm">
             Languages & Tools
           </div>
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  h-auto mb-10 flex-wrap justify-evenly md:w-[70vw] mx-auto items-center overflow-scroll">
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>React</span>
-              <DiReact className="text-6xl " />{" "}
+              <DiReact className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>JavaScript</span>
-              <SiJavascript className="text-6xl " />{" "}
+              <SiJavascript className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>TypeScript</span>
-              <SiTypescript className="text-6xl " />{" "}
+              <SiTypescript className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Nextjs</span>
-              <TbBrandNextjs className="text-6xl " />{" "}
+              <TbBrandNextjs className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>HTML</span>
-              <AiFillHtml5 className="text-6xl " />{" "}
+              <AiFillHtml5 className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>CSS</span>
-              <DiCss3 className="text-6xl " />{" "}
+              <DiCss3 className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Node.js</span>
-              <FaNodeJs className="text-6xl " />{" "}
+              <FaNodeJs className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>MongoDB</span>
-              <DiMongodb className="text-6xl " />{" "}
+              <DiMongodb className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Solidity</span>
-              <SiSolidity className="text-6xl " />{" "}
+              <SiSolidity className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Cpp</span>
-              <TbBrandCpp className="text-6xl " />{" "}
+              <TbBrandCpp className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Python</span>
-              <FaPython className="text-6xl " />{" "}
+              <FaPython className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Tailwind CSS</span>
-              <SiTailwindcss className="text-6xl " />{" "}
+              <SiTailwindcss className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Bootstrap</span>
-              <BsFillBootstrapFill className="text-6xl " />{" "}
+              <BsFillBootstrapFill className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Figma</span>
-              <FiFigma className="text-6xl " />{" "}
+              <FiFigma className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Framer</span>
-              <FiFramer className="text-6xl " />{" "}
+              <FiFramer className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Hardhat</span>
-              <FaHardHat className="text-6xl " />{" "}
+              <FaHardHat className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>web3.js</span>
-              <SiWeb3Dotjs className="text-6xl " />{" "}
+              <SiWeb3Dotjs className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Ethereum</span>
-              <FaEthereum className="text-6xl " />{" "}
+              <FaEthereum className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>Git</span>
-              <BsGit className="text-6xl " />{" "}
+              <BsGit className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-4xl hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
               {" "}
               <span>GitHub</span>
-              <AiFillGithub className="text-6xl " />{" "}
+              <AiFillGithub className="text-4xl " />{" "}
             </div>
 
 
