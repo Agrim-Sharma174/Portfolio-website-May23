@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex w-1/2 items-baseline justify-end">
         <div className="flex w-full flex-col items-end md:w-2/3">
           <motion.div {...LineAnimation} animate={{ width: '40%' }} className="line-footer h-1" />
-          <motion.div {...LineAnimation} animate={{ width: '100%' }} className="line-footer mt-1 h-1" />
+          <motion.div {...LineAnimation} animate={{ width: '100%' }} className="line-footer mt-1 h-1 bg-[#E85173]" />
           <motion.div {...LineAnimation} animate={{ width: '67%' }} className="line-footer mt-1 h-1" />
         </div>
       </div>

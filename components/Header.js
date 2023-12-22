@@ -21,7 +21,7 @@ const Header = () => {
       <div className="flex w-1/2 items-baseline">
         <div className="w-3/5 md:w-2/5">
           <motion.div {...LineAnimation} animate={{ width: '25%' }} className="line-header mb-1 h-1" />
-          <motion.div {...LineAnimation} animate={{ width: '100%' }} className="line-header mb-1 h-1" />
+          <motion.div {...LineAnimation} animate={{ width: '100%' }} className="line-header mb-1 h-1 bg-[#E85173]" />
           <motion.div {...LineAnimation} animate={{ width: '67%' }} className="line-header h-1" />
         </div>
       </div>
@@ -37,7 +37,7 @@ const Header = () => {
           <nav className="navbar md:w-24 rounded-md md:flex md:flex-col md:fixed md:left-4 md:mt-1 md:my-auto md:space-y-5 backdrop-blur-sm p-3">
             {navLinks.map((link) => (
               <Link key={link.title} href={link.path}>
-                <a className={`nav-items hover:scale-110 md:backdrop-blur-xl md:hover:backdrop-blur-sm md:hover:bg-white md:hover:bg-opacity-5 md:w-[74px] md:h-[74px] md:rounded-full md:flex justify-center md:items-center md:transition md:duration-100 md:shadow-gray-50 md:hover:shadow-gray-50 md:shadow-inner md:hover:shadow-inner  ${router.pathname === link.path ? 'text-primary-light' : ''}`}>{link.title}</a>
+                <a className={`nav-items hover:scale-110 md:backdrop-blur-xl md:hover:backdrop-blur-sm md:hover:bg-white md:hover:bg-opacity-5 md:w-[74px] md:h-[74px] md:rounded-full md:flex justify-center md:items-center md:transition md:duration-100 md:shadow-gray-50 md:hover:shadow-[#E85173] md:shadow-inner md:hover:shadow-inner  ${router.pathname === link.path ? 'text-primary-light md:shadow-[#E85173]' : ''}`}>{link.title}</a>
               </Link>
             ))}
           </nav>
