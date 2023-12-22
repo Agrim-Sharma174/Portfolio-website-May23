@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <Layouts pageTitle=" | Contact">
       <section className="relative flex w-full flex-col items-center justify-evenly py-40 md:h-screen md:flex-row md:overflow-hidden">
-        <motion.span {...FadeAnimation} className="title-page">
+        <motion.span {...FadeAnimation} className="title-page text-slate-900">
           CONTACT
         </motion.span>
 
@@ -19,7 +19,7 @@ const Contact = () => {
             My socials
           </div>
           <div className="grid grid-cols-4">
-            <div className="mx-4 my-4 text-4xl hover:text-black">
+            <div className="mx-4 my-4 text-4xl hover:text-blue-500">
               <a
                 href="https://twitter.com/agrim_sharma174"
                 target="_blank"
@@ -28,7 +28,7 @@ const Contact = () => {
                 <BsTwitter />
               </a>
             </div>
-            <div className="mx-4 my-4 text-4xl hover:text-black">
+            <div className="mx-4 my-4 text-4xl hover:text-blue-900">
               <a
                 href="https://www.linkedin.com/in/agrim-sharma174/"
                 target="_blank"
@@ -46,7 +46,7 @@ const Contact = () => {
                 <BsGithub />
               </a>
             </div>
-            <div className="mx-4 my-4 text-4xl hover:text-black">
+            <div className="mx-4 my-4 text-4xl hover:text-blue-700">
               <a
                 href="https://agrimsharma.hashnode.dev/"
                 target="_blank"
@@ -55,7 +55,7 @@ const Contact = () => {
                 <SiHashnode />
               </a>
             </div>
-            <div className="mx-4 my-4 text-4xl hover:text-black">
+            <div className="mx-4 my-4 text-4xl hover:text-red-700">
               <a
                 href="mailto:agrimsharma1714@gmail.com"
                 target="_blank"
@@ -64,7 +64,7 @@ const Contact = () => {
                 <AiOutlineMail />
               </a>
             </div>
-            <div className="mx-4 my-4 text-4xl hover:text-black">
+            <div className="mx-4 my-4 text-4xl hover:text-fuchsia-700">
               <a
                 href="https://www.polywork.com/agrim_sharma174"
                 target="_blank"
@@ -73,7 +73,7 @@ const Contact = () => {
                 <SiPolywork />
               </a>
             </div>
-            <div className="mx-4 my-4 text-4xl hover:text-black">
+            <div className="mx-4 my-4 text-4xl hover:text-pink-700">
               <a
                 href="https://instagram.com/agrim_sharma174"
                 target="_blank"

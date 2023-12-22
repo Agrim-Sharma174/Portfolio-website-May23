@@ -33,102 +33,102 @@ const About = () => {
             Languages & Tools
           </div>
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  h-auto mb-10 flex-wrap justify-evenly md:w-[70vw] mx-auto items-center overflow-scroll">
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>React</span>
               <DiReact className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>JavaScript</span>
               <SiJavascript className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>TypeScript</span>
               <SiTypescript className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Nextjs</span>
               <TbBrandNextjs className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>HTML</span>
               <AiFillHtml5 className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>CSS</span>
               <DiCss3 className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Node.js</span>
               <FaNodeJs className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>MongoDB</span>
               <DiMongodb className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Solidity</span>
               <SiSolidity className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Cpp</span>
               <TbBrandCpp className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Python</span>
               <FaPython className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Tailwind CSS</span>
               <SiTailwindcss className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Bootstrap</span>
               <BsFillBootstrapFill className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Figma</span>
               <FiFigma className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Framer</span>
               <FiFramer className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Hardhat</span>
               <FaHardHat className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>web3.js</span>
               <SiWeb3Dotjs className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Ethereum</span>
               <FaEthereum className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Git</span>
               <BsGit className="text-4xl " />{" "}
             </div>
-            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-gray-500">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>GitHub</span>
               <AiFillGithub className="text-4xl " />{" "}
