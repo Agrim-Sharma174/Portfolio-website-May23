@@ -11,7 +11,7 @@ const Works = () => {
 
   useEffect(() => {
     const element = ref.current;
-    const scrollToLeft = () => (element.style.transform = `translateX(${-window.scrollY}px)`);
+    const scrollToLeft = () => (element.style.transform = `translateX(${-1.2*window.scrollY}px)`);
 
     window.addEventListener('scroll', scrollToLeft);
     return () => window.removeEventListener('scroll', scrollToLeft);
