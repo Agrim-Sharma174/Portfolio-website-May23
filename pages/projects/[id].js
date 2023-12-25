@@ -16,7 +16,7 @@ const ProjectDetail = withRouter(
     return (
       <Layouts pageTitle=" | Projects">
         <section className="relative flex w-full items-center justify-center py-40 md:h-screen">
-          <span className="title-page">PROJECTS</span>
+          <span className="title-page text-slate-900">PROJECTS</span>
 
           <motion.div
             {...ContentAnimation}
@@ -34,12 +34,12 @@ const ProjectDetail = withRouter(
                       className="relative"
                     />
                   </div>
-                  <div className="flex w-full justify-between bg-primary-dark text-center font-semibold text-primary-light">
+                  <div className="flex w-full justify-between bg-slate-900 text-center font-semibold text-primary-light">
                     <a
                       href={getProject.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="w-[238px] rounded-bl-lg border-2 border-primary-dark py-1 transition-all duration-500 hover:bg-primary-light hover:text-primary-dark"
+                      className="w-[238px] rounded-bl-lg border-2 border-slate-900 py-1 transition-all duration-500 hover:bg-primary-light hover:text-slate-900"
                     >
                       <span>View Demo</span>
                     </a>
@@ -48,16 +48,16 @@ const ProjectDetail = withRouter(
                       href={getProject.sourceCode}
                       target="_blank"
                       rel="noreferrer"
-                      className="w-[238px] rounded-br-lg border-2 border-primary-dark py-1 transition-all duration-500 hover:bg-primary-light hover:text-primary-dark"
+                      className="w-[238px] rounded-br-lg border-2 border-slate-900 py-1 transition-all duration-500 hover:bg-primary-light hover:text-slate-900"
                     >
                       <span>Source Code</span>
                     </a>
                   </div>
                 </div>
 
-                <div className="h-2 w-full rounded-lg bg-primary-dark md:h-auto md:w-2" />
+                <div className="h-2 w-full rounded-lg bg-slate-900 md:h-auto md:w-2" />
 
-                <div className="mt-3 flex w-full flex-col justify-center overflow-hidden rounded-lg bg-primary-dark p-5 md:mt-0 md:w-[480px]">
+                <div className="mt-3 flex w-full flex-col justify-center overflow-hidden rounded-lg bg-slate-900 p-5 md:mt-0 md:w-[480px]">
                   <h1 className="relative mb-5 text-center text-4xl text-primary-light md:text-5xl">
                     {getProject.name}
                   </h1>
