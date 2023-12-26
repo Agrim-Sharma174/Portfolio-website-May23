@@ -12,7 +12,7 @@ const LoadingPage = () => {
   return (
     <Layouts>
       <div className="relative flex h-screen w-full items-center justify-center">
-        .
+        AGRIM...
       </div>
     </Layouts>
   );
