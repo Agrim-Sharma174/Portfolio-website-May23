@@ -84,7 +84,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div>DM me and I would love to intract with you.</div>
+          <div>DM me and I would love to interact with you.</div>
         </motion.div>
       </section>
     </Layouts>

@@ -6,6 +6,7 @@ import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiReact, DiMongodb } from "react-icons/di";
 import {
   SiJavascript,
+  SiPostman,
   SiSolidity,
   SiTailwindcss,
   SiTypescript,
@@ -132,6 +133,11 @@ const About = () => {
               {" "}
               <span>GitHub</span>
               <AiFillGithub className="text-4xl " />{" "}
+            </div>
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
+              {" "}
+              <span>Postman</span>
+              <SiPostman className="text-4xl " />{" "}
             </div>
 
 
