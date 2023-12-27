@@ -5,7 +5,7 @@ const Layouts = (props) => {
   return (
     <>
       <Head>
-        <title>My Portfolio- Agrim</title>
+        <title>Agrim Sharma</title>
       </Head>
 
       <>{children}</>

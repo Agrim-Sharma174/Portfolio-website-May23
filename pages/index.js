@@ -45,7 +45,6 @@ const Home = () => {
           
           {/* Front-end Dev | Blockchain Developer | Technical Writer */}
         </motion.div>
-        {/* <p>This design is originally from https://github.com/euxzy/portfolio</p> */}
       </section>
     </Layouts>
   );
