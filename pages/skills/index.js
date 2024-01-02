@@ -64,11 +64,11 @@ const About = () => {
               <span>CSS</span>
               <DiCss3 className="text-4xl " />{" "}
             </div>
-            {/* <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
+            <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>Node.js</span>
               <FaNodeJs className="text-4xl " />{" "}
-            </div> */}
+            </div>
             <div className="border rounded-lg bg-[#1F283B] hover:bg-slate-900 flex gap-2 items-center justify-center mx-4 my-2 text-2xl p-2 hover:text-primary-light">
               {" "}
               <span>MongoDB</span>
