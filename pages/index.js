@@ -40,7 +40,7 @@ const Home = () => {
           <h3 className=" text-lg font-normal"> <span className='text-[#E85173]'>GM</span>! I am</h3>
           <h1 className="-ml-1 mb-1 mt-2 text-6xl md:text-7xl font-bold text-primary-light">Agrim Sharma</h1>
           <h1 className='w-[200%] text-[#E85173] mt-1 text-xl md:text-4xl fnt-bold'><div id="typewriter"></div> </h1>
-          <h4 className=" w-[200%] md:w-[150%] mt-5 pt-3 pr-3 text-base font-light transition-all duration-500 hover:text-primary-light">An undergraduate student who breathe code. I am a programmer fueled with passion for space and its secrets. My strength lies in my ability to work well in team and find solutions to difficult problems.</h4>
+          <h4 className=" w-[200%] md:w-[150%] mt-5 pt-3 pr-3 text-base font-light transition-all duration-500 hover:text-primary-light">An engineer who breathe code. I am a programmer fueled with passion for space and its secrets. My strength lies in my ability to work well in team and find solutions to difficult problems.</h4>
           <h4 className=" w-[200%] md:w-[150%] mt-1 pr-3 pb-3 text-base font-light transition-all duration-500 text-primary-light">And yeah... my best skill- Explaining things! ;-)</h4>
           
           {/* Front-end Dev | Blockchain Developer | Technical Writer */}

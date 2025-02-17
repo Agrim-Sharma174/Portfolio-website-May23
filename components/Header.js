@@ -13,7 +13,7 @@ const Header = () => {
     { title: 'Skills', path: '/skills' },
     { title: 'Projects', path: '/projects' },
     { title: 'Contact', path: '/contact' },
-    { title: 'Resume', path: 'https://docs.google.com/document/d/1ekA5eqqNb340q9YwaAzZAICMF38PAqT0CKrs0aAkrbM/edit?usp=sharing' },
+    { title: 'Resume', path: '/' },
   ];
 
   return (
